@@ -1,0 +1,15 @@
+{
+  "Version": 1,
+  "Guid": "9487acc5-e28d-4a25-95e2-f79f733256b2",
+  "Name": "HUD Ballistic Trajectory Overlay DX11 Occlusion",
+  "Description": "DX11 edition of HUD Ballistic Trajectory Overlay v6 with obstacle occlusion for the local player's guide. Preserves the established thin line, throwable behavior, and long-arc coverage. Uses the original build-validated scene query, with at most 32 additional visibility samples per drawn guide and short-lived reuse when the camera and trajectory stay nearly still. Disable other overlay editions before deploying.",
+  "Options": [
+    {
+      "Name": "Overlay",
+      "Description": "Trajectory guides and lifetime markers. HUDBTO.ini is created if missing and read once at mission start.",
+      "Include": [
+        "Overlay"
+      ]
+    }
+  ]
+}
